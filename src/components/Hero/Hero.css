@@ -1,0 +1,40 @@
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  /* outline: 2px solid white; */
+
+  .heading,
+  .subheading {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .heading {
+    margin: -15px 0;
+    width: 100%;
+    font-size: 15vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    text-transform: uppercase;
+  }
+
+  .subheading {
+    margin: -15px 0 0 0;
+    max-width: 750px;
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 45px;
+
+    /* outline: 2px solid red; */
+  }
+}
+
+.highlight {
+  background: -webkit-linear-gradient(0deg, #7ad4b0, #4363e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
