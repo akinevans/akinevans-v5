@@ -1,8 +1,12 @@
-.hero-wrapper {
+.hero-wrapper,
+.hero-btn-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hero-wrapper {
   width: 90vw;
   /* outline: 2px solid white; */
 
@@ -30,6 +34,15 @@
     line-height: 45px;
 
     /* outline: 2px solid red; */
+  }
+
+  .hero-btn-wrapper {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 65%;
+    /* outline: 2px solid pink; */
   }
 }
 

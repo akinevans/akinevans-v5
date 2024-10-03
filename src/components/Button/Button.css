@@ -1,0 +1,18 @@
+.link-btn {
+  width: fit-content;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 20px;
+  color: var(--Primary);
+  /* font-size: 1.6vw; */
+
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  outline: 1px solid var(--Primary);
+  border-radius: 5px;
+}
+
+.highlight-btn {
+  outline: 1px solid transparent;
+  background: -webkit-linear-gradient(0deg, #7ad4b0, #4363e6);
+}
