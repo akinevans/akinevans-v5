@@ -6,7 +6,8 @@ export default function Hero() {
     <div className='hero-wrapper'>
       <h1 className='heading'>Akin Evans</h1>
       <h2 className='subheading'>
-        <span className='highlight'>Front-End Developer</span> passionate about
+        <span className='highlight'>Front-End Developer</span> passionate about{" "}
+        <br />
         building beautiful user interfaces
       </h2>
       <div className='hero-btn-wrapper'>

@@ -7,6 +7,7 @@
 }
 
 .hero-wrapper {
+  margin: -20px 0;
   width: 90vw;
   /* outline: 2px solid white; */
 
@@ -18,7 +19,7 @@
   }
 
   .heading {
-    margin: -15px 0;
+    /* margin: -15px 0; */
     width: 100%;
     font-size: 15vw;
     font-weight: 700;
@@ -27,11 +28,11 @@
   }
 
   .subheading {
-    margin: -15px 0 0 0;
-    max-width: 750px;
+    margin: -20px 0 0 0;
+    /* max-width: 750px; */
     font-size: 3.5vw;
     font-weight: 600;
-    line-height: 45px;
+    line-height: 110%;
 
     /* outline: 2px solid red; */
   }
