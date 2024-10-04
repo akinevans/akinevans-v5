@@ -1,6 +1,8 @@
 import "./Nav.css";
 import { Link } from "react-router-dom";
 
+//TODO: make text color change depending on background color
+
 export default function Nav() {
   return (
     <nav className='nav'>
