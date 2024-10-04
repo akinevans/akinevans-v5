@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 120px 0 10px 35px;
+  margin: 120px 0 15px 35px;
   color: var(--Primary);
   font-size: 3.5vw; /*  40px; */
   font-weight: 600;

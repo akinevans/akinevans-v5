@@ -1,0 +1,105 @@
+.project-wrapper,
+.left,
+.right,
+.project-links-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: var(--Primary);
+}
+
+.project-wrapper {
+  gap: 20px;
+  width: fit-content;
+  max-width: 1200px;
+  height: fit-content;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+
+  .left {
+    width: 65%;
+    .project-img {
+      width: 100%;
+      height: fit-content;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .right {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 35%;
+    height: 100%;
+    min-height: 100%;
+    /* outline: 2px solid green; */
+
+    .project-title {
+      margin: 0 0 20px 0;
+      padding: 0;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 36px;
+      background: -webkit-linear-gradient(0deg, #7ad4b0, #4363e6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .project-description {
+      width: 90%;
+      /* min-height: 170px; */
+      margin: 0;
+      font-size: 20px;
+      font-weight: 200;
+      text-align: left;
+      line-height: 24px;
+    }
+
+    .project-list {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+      max-height: 80px;
+      margin: 20px 0 50px 0;
+      padding: 0;
+      list-style: none;
+      text-align: left;
+      /* outline: 2px solid blue; */
+
+      .project-list-item {
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--Secondary);
+        line-height: 30px;
+      }
+    }
+
+    .project-links-wrapper {
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+
+      .github-img,
+      .external-link-img {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .github-img {
+        width: 35px;
+        height: 35px;
+        background-image: url("../../assets/github.svg");
+      }
+
+      .external-link-img {
+        width: 33px;
+        height: 33px;
+        margin-bottom: -5px;
+        background-image: url("../../assets/external-link.svg");
+      }
+    }
+  }
+}
