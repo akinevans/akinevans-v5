@@ -17,12 +17,13 @@
     text-transform: uppercase;
     font-weight: 200;
     font-size: 24px;
-    transition: color 0.2s ease;
+    transition: color 0.4s ease;
+    cursor: pointer;
   }
 
   .nav-link:hover {
     color: var(--Primary);
-    transition: color 0.2s ease;
+    transition: color 0.4s ease;
   }
 }
 

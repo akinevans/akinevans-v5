@@ -1,5 +1,6 @@
 import "./Hero.css";
 import Button from "../Button/Button";
+import resume from "../../assets/Akin-Evans-Resume.pdf";
 
 export default function Hero() {
   return (
@@ -32,7 +33,8 @@ export default function Hero() {
           onClick=''
         />
         <Button
-          to=''
+          to={resume}
+          download
           title='Download CV'
           className='highlight-btn'
           onClick=''

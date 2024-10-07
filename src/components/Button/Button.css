@@ -4,28 +4,34 @@
   padding: 5px 20px;
   color: var(--Primary);
   /* font-size: 1.6vw; */
-
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
   background: transparent;
   outline: 1px solid var(--Primary);
   border-radius: 5px;
-  transition: outline 0.2s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
 }
 
 .link-btn:hover {
-  color: var(--Secondary);
-  outline: 1px solid var(--Secondary);
-  transition: outline 0.2s ease;
+  color: var(--Background);
+  background: var(--Primary);
+  /* outline: 1px solid var(--Secondary); */
+  outline: none;
+  transition: all 0.4s ease;
 }
 
 .highlight-btn {
   outline: 1px solid transparent;
   background: -webkit-linear-gradient(0deg, #7ad4b0, #4363e6);
+  transition: all 0.4s ease;
 }
 
 .highlight-btn:hover {
   outline: transparent;
-  color: var(--Primary);
+
+  color: var(--Background);
+  background: -webkit-linear-gradient(0deg, #7ad4b0, #4363e6);
+  transition: all 0.4s ease;
 }
