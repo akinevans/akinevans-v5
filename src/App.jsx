@@ -3,7 +3,7 @@ import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import SectionTitle from "./components/SectionTitle/SectionTitle";
 import ProjectItem from "./components/Project/ProjectItem";
-import cafe from "./assets/cafe.svg";
+import { projectData } from "./utils/projectData";
 
 function App() {
   return (
@@ -12,48 +12,23 @@ function App() {
       <Hero />
       <SectionTitle title='Projects' />
       <div className='project-components-wrapper'>
-        <ProjectItem
-          projectImg={cafe}
-          alt='cafe nyleta'
-          title='Cafe Nyleta'
-          description='A Full-Stack application for minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat nostrud iu tep. Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat nostrud iu tep.'
-          listItem1='React'
-          listItem2='JavaScript'
-          listItem3='SCSS'
-          listItem4='Example'
-          listItem5='Example'
-          listItem6='Example'
-          githubLink='https://github.com/akinevans/cafe-nyleta'
-          externalLink='https://cafe-nyleta.netlify.app/#/shop'
-        />
-        <ProjectItem
-          projectImg={cafe}
-          alt='cafe nyleta'
-          title='Cafe Nyleta'
-          description='A Full-Stack application for minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat nostrud iu tep. Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat nostrud iu tep.'
-          listItem1='React'
-          listItem2='JavaScript'
-          listItem3='SCSS'
-          listItem4='Example'
-          listItem5='Example'
-          listItem6='Example'
-          githubLink='https://github.com/akinevans/cafe-nyleta'
-          externalLink='https://cafe-nyleta.netlify.app/#/shop'
-        />
-        <ProjectItem
-          projectImg={cafe}
-          alt='cafe nyleta'
-          title='Cafe Nyleta'
-          description='A Full-Stack application for minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat nostrud iu tep. Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat nostrud iu tep.'
-          listItem1='React'
-          listItem2='JavaScript'
-          listItem3='SCSS'
-          listItem4='Example'
-          listItem5='Example'
-          listItem6='Example'
-          githubLink='https://github.com/akinevans/cafe-nyleta'
-          externalLink='https://cafe-nyleta.netlify.app/#/shop'
-        />
+        {projectData.map((project) => (
+          <ProjectItem
+            key={projectData.index}
+            projectImg={project.projectImg}
+            alt={project.alt}
+            title={project.title}
+            description={project.description}
+            listItem1={project.listItem1}
+            listItem2={project.listItem2}
+            listItem3={project.listItem3}
+            listItem4={project.listItem4}
+            listItem5={project.listItem5}
+            listItem6={project.listItem6}
+            githubLink={project.githubLink}
+            externalLink={project.externalLink}
+          />
+        ))}
       </div>
       <SectionTitle title='Experience' />
       <SectionTitle title='Education' />

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import github from "../../assets/github.svg";
-import external_link from "../../assets/external-link.svg";
 import "./ProjectItem.css";
 
 export default function ProjectItem(props) {
   return (
     <div className='project-wrapper'>
       <div className='left'>
-        <img src={props.projectImg} alt={props.alt} className='project-img' />
+        <Link to={props.externalLink} target='_blank'>
+          <img src={props.projectImg} alt={props.alt} className='project-img' />
+        </Link>
       </div>
       <div className='right'>
         <h1 className='project-title'>{props.title}</h1>

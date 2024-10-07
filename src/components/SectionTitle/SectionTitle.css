@@ -2,11 +2,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  margin: 110px auto 15px auto;
+  padding-left: 35px;
   width: 100%;
   max-width: 1200px;
   height: fit-content;
-  margin: 120px auto 15px auto;
-  padding-left: 35px;
   color: var(--Primary);
   font-size: 3.5vw; /*  40px; */
   font-weight: 600;
