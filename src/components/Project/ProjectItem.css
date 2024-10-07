@@ -93,16 +93,26 @@
         width: 35px;
         height: 35px;
         background-image: url("../../assets/github.svg");
+        transition: all 0.4s ease;
       }
 
       .external-link-img {
-        width: 33px;
-        height: 33px;
+        width: 32px;
+        height: 32px;
         margin-bottom: -5px;
         background-image: url("../../assets/external-link.svg");
+        transition: all 0.4s ease;
       }
     }
   }
+}
+
+/* Hover */
+
+.github-img:hover,
+.external-link-img:hover {
+  filter: brightness(0) invert(1);
+  transition: all 0.4s ease;
 }
 
 /* Media queries */
