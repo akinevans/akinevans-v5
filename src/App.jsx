@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import SectionTitle from "./components/SectionTitle/SectionTitle";
 import ProjectItem from "./components/Project/ProjectItem";
+import Footer from "./components/Footer/Footer";
 import { projectData } from "./utils/projectData";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <SectionTitle title='Experience' />
       <SectionTitle title='Education' />
       <SectionTitle title='Contact' />
+      <Footer />
     </div>
   );
 }

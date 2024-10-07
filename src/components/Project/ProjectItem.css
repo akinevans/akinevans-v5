@@ -141,3 +141,13 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .project-wrapper {
+    .right {
+      .project-title {
+        font-size: 26px;
+      }
+    }
+  }
+}
