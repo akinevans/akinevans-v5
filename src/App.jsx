@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import SectionTitle from "./components/SectionTitle/SectionTitle";
 import ProjectItem from "./components/Project/ProjectItem";
+import DataCard from "./components/DataCard/DataCard";
 import Footer from "./components/Footer/Footer";
 import { projectData } from "./utils/projectData";
 
@@ -31,9 +32,71 @@ function App() {
           />
         ))}
       </div>
-      <SectionTitle title='Experience' />
-      <SectionTitle title='Education' />
-      <SectionTitle title='Contact' />
+      {/* FIXME: this structure is clunky and the css is overcomplicated. Make experience and education their own sections and place them side-by-side */}
+      <div className='experience-education-wrapper'>
+        <div className='experience-wrapper'>
+          <SectionTitle title='Experience' className='alt-margin' />
+
+          <div className='data-card-components-wrapper'>
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Google'
+              position='Front-End Developer'
+            />
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Google'
+              position='Front-End Developer'
+            />
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Googleeeeeeeeeee'
+              position='Front-End Developer'
+            />
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Google'
+              position='Front-End Developer'
+            />
+          </div>
+        </div>
+        <div className='education-wrapper'>
+          <SectionTitle title='Education' className='alt-margin' />
+
+          <div className='data-card-components-wrapper'>
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Google'
+              position='Front-End Developer'
+            />
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Google'
+              position='Front-End Developer'
+            />
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Googleeeeeeeeeee'
+              position='Front-End Developer'
+            />
+            <DataCard
+              startDate='Jun 2023'
+              endDate='Jan 2024'
+              title='Google'
+              position='Front-End Developer'
+            />
+          </div>
+        </div>
+      </div>
+
+      <SectionTitle title='Contact' className='alt-margin' />
       <Footer />
     </div>
   );

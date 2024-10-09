@@ -12,10 +12,26 @@
   font-weight: 600;
 }
 
+/*  utility classes */
+
+.alt-margin {
+  margin: 3vh auto 15px auto;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 600px) {
   .section-title {
     font-size: 35px;
+  }
+
+  .alt-margin {
+    margin: 1vh auto 15px auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .alt-margin {
+    margin: -1vh auto 15px auto;
   }
 }
