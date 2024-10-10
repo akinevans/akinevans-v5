@@ -9,7 +9,7 @@ import { projectData } from "./utils/projectData";
 import { experienceData } from "./utils/experience_education_Data";
 import { educationData } from "./utils/experience_education_Data";
 
-//TODO: Update all website writing
+//TODO:
 // Fix props errors
 // Test media queries
 // Accessability
