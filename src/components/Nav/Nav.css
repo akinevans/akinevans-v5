@@ -8,7 +8,9 @@
   /* margin-bottom: 10px; */
   width: 100%;
   height: 50px;
-  background: var(--Background);
+  /* background: var(--Background); */
+  background: #07092bda;
+  backdrop-filter: blur(18px);
   /* outline: 2px solid red; */
 
   .nav-link {

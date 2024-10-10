@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ProjectItem.css";
+//? Moonjelly font for PetPal v1, Cloud Soft for v2
 
 export default function ProjectItem(props) {
   return (

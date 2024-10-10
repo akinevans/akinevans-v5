@@ -20,9 +20,11 @@
     width: 60%;
     .project-img {
       width: 100%;
+      max-width: 607px;
       height: fit-content;
       margin: 0;
       padding: 0;
+      border-radius: 10px;
     }
   }
 
@@ -36,18 +38,21 @@
     /* outline: 2px solid green; */
 
     .project-title {
+      width: 100%;
+      height: fit-content;
       margin: 0 0 20px 0;
       padding: 0;
       font-weight: 600;
       font-size: 30px;
-      line-height: 36px;
+      line-height: 26px;
+      text-align: left;
       background: -webkit-linear-gradient(0deg, #7ad4b0, #4363e6);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .project-description {
-      width: 90%;
+      width: 100%;
       /* min-height: 170px; */
       margin: 0;
       font-size: 20px;
@@ -58,9 +63,11 @@
 
     .project-list {
       display: flex;
-      justify-content: space-between;
-      width: 60%;
-      max-height: 80px;
+      justify-content: flex-start;
+      gap: 30px;
+      width: 75%;
+      height: fit-content;
+      max-height: 130px;
       margin: 20px 0 20px 0;
       padding: 0;
       list-style: none;
@@ -68,11 +75,11 @@
       /* outline: 2px solid blue; */
 
       .project-list-item {
-        margin-right: 15px;
         font-size: 18px;
         font-weight: 400;
         color: var(--Secondary);
         line-height: 30px;
+        /* outline: 1px solid green; */
       }
     }
 
@@ -90,16 +97,16 @@
       }
 
       .github-img {
-        width: 35px;
-        height: 35px;
+        width: 32px;
+        height: 32px;
         background-image: url("../../assets/github.svg");
         transition: all 0.4s ease;
       }
 
       .external-link-img {
-        width: 32px;
-        height: 32px;
-        margin-bottom: -5px;
+        width: 29px;
+        height: 29px;
+        margin-bottom: -2px;
         background-image: url("../../assets/external-link.svg");
         transition: all 0.4s ease;
       }
@@ -117,7 +124,7 @@
 
 /* Media queries */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .project-wrapper {
     flex-direction: column-reverse;
 
@@ -133,9 +140,13 @@
       height: 100%;
       min-height: 100%;
 
+      .project-description {
+        width: 72%;
+      }
+
       .project-list {
         width: 30%;
-        max-height: 80px;
+        max-height: 100px;
         margin: 15px 0 15px 0;
 
         /* outline: 2px solid blue; */
@@ -147,6 +158,19 @@
           color: var(--Secondary);
           line-height: 26px;
         }
+      }
+      .project-links-wrapper {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .project-wrapper {
+    .right {
+      .project-description {
+        width: 85%;
       }
     }
   }
