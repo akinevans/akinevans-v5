@@ -27,7 +27,6 @@ export default function Footer() {
       />
       <Button
         to={resume}
-        download
         title='Download CV'
         className='highlight-btn'
         onClick=''

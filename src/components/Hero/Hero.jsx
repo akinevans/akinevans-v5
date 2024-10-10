@@ -12,33 +12,14 @@ export default function Hero() {
         building beautiful user interfaces
       </h2>
       <div className='hero-btn-wrapper'>
-        <Button
-          to='mailto:akinevans@gmail.com'
-          title='Email'
-          className=''
-          onClick={() => {
-            console.log("email btn");
-          }}
-        />
-        <Button
-          to='https://github.com/akinevans'
-          title='GitHub'
-          className=''
-          onClick=''
-        />
+        <Button to='mailto:akinevans@gmail.com' title='Email' className='' />
+        <Button to='https://github.com/akinevans' title='GitHub' className='' />
         <Button
           to='https://www.linkedin.com/in/akinevans/'
           title='LinkedIn'
           className=''
-          onClick=''
         />
-        <Button
-          to={resume}
-          download
-          title='Download CV'
-          className='highlight-btn'
-          onClick=''
-        />
+        <Button to={resume} title='Download CV' className='highlight-btn' />
       </div>
     </div>
   );

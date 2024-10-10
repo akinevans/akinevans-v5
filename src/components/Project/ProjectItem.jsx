@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { PropTypes } from "prop-types";
 import "./ProjectItem.css";
-//? Moonjelly font for PetPal v1, Cloud Soft for v2
+
+//? Moonjelly font for PetPal v1 image, Cloud Soft for v2
 
 export default function ProjectItem(props) {
   return (
@@ -37,3 +39,18 @@ export default function ProjectItem(props) {
     </div>
   );
 }
+
+ProjectItem.propTypes = {
+  projectImg: PropTypes.string,
+  alt: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  listItem1: PropTypes.string,
+  listItem2: PropTypes.string,
+  listItem3: PropTypes.string,
+  listItem4: PropTypes.string,
+  listItem5: PropTypes.string,
+  listItem6: PropTypes.string,
+  githubLink: PropTypes.string,
+  externalLink: PropTypes.string,
+};

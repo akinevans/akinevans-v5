@@ -1,3 +1,4 @@
+import { PropTypes } from "prop-types";
 import "./DataCard.css";
 
 export default function DataCard(props) {
@@ -11,3 +12,10 @@ export default function DataCard(props) {
     </div>
   );
 }
+
+DataCard.propTypes = {
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
+  title: PropTypes.string,
+  position: PropTypes.string,
+};
