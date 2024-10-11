@@ -18,6 +18,11 @@
   margin: 3vh auto 15px auto;
 }
 
+.alt-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 600px) {

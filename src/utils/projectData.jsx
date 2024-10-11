@@ -7,7 +7,7 @@ import petpal_v1_white from "../assets/petpal_v1_white.jpg";
 export const projectData = [
   {
     projectImg: cafe,
-    alt: "image of cafe nyleta website",
+    alt: "Cafe Nyleta website",
     title: "Cafe Nyleta",
     description:
       "A responsive e-commerce website built with React, featuring an intuitive UI for effortless product browsing, filtering, and seamless category navigation. Key features include a shopping cart, product detail pages, and Redux for state management. Strapi CMS powers the back-end, while the mobile-friendly design ensures an optimal user experience across all devices, with a focus on performance and maintainability.",
@@ -25,7 +25,7 @@ export const projectData = [
   },
   {
     projectImg: social_sync,
-    alt: "image of social sync website",
+    alt: "Social Sync website",
     title: "Social Sync",
     description:
       "Created to showcase advanced user-interface development skills, Social Sync offers users a seamless landing page experience. Built using React, this project demonstrates proficiency in developing a clean, responsive, modern UI. Social Sync also showcases best practices in accessibility and performance optimization.",
@@ -43,10 +43,10 @@ export const projectData = [
   },
   {
     projectImg: petpal_v1_white,
-    alt: "image of Pet Pal website",
+    alt: "Pet Pal website",
     title: "PetPal",
     description:
-      "PetPal is a full-stack pet care tracker. Key features include comprehensive pet profiles, health and activity tracking, and data visualization for easy monitoring of key metrics. Designed to help pet owners efficiently manage various aspects of their pets health and well-being PetPal streamlines the organization of pet-related tasks, making it an essential tool for ensuring optimal care and wellness for pets.",
+      "PetPal is a full-stack CRUD pet care tracker. Key features include comprehensive pet profiles, health and activity tracking, and data visualization for easy monitoring of metrics. Designed to help pet owners efficiently manage their pets health and well-being. PetPal streamlines the organization of pet-related tasks, making it an essential tool for ensuring optimal care and wellness for pets.",
 
     //^ listItems 1 - 3 are the left side. 4 - 6 are right
 

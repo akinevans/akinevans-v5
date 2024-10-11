@@ -9,12 +9,11 @@ import { projectData } from "./utils/projectData";
 import { experienceData } from "./utils/experience_education_Data";
 import { educationData } from "./utils/experience_education_Data";
 
-//TODO:
-// Fix props errors
-// Test media queries
+//TODO: Install and set up react-scroll for Nav
 // Accessability
 // Google Lighthouse
 // Google analytics
+//Add link to website in README
 // Host and publish
 
 function App() {
@@ -71,14 +70,17 @@ function App() {
 
       <div className='experience-education-wrapper'>
         <div className='experience-wrapper'>
-          <SectionTitle title='Experience' className='alt-margin' />
+          <SectionTitle
+            title='Experience'
+            className='alt-margin alt-padding '
+          />
 
           <div className='data-card-components-wrapper'>
             {displayExperienceCards()}
           </div>
         </div>
         <div className='education-wrapper'>
-          <SectionTitle title='Education' className='alt-margin' />
+          <SectionTitle title='Education' className='alt-margin alt-padding' />
 
           <div className='data-card-components-wrapper'>
             {displayEducationCards()}

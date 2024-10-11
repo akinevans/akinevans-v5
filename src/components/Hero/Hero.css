@@ -45,6 +45,7 @@
     flex-wrap: wrap;
     margin-top: 20px;
     width: 65%;
+    max-width: 850px;
     /* outline: 2px solid pink; */
   }
 }
