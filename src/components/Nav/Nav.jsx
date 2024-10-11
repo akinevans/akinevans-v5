@@ -1,23 +1,40 @@
 import "./Nav.css";
-import { Link } from "react-router-dom";
+import { Link as Scroll_Link } from "react-scroll";
 
 //TODO: make text color change depending on background color
 
 export default function Nav() {
   return (
     <nav className='nav'>
-      <Link to='' className='nav-link'>
+      <Scroll_Link
+        className='nav-link'
+        to='hero-component'
+        smooth={true}
+        offset={-40}
+        duration={800}
+      >
         Home
-      </Link>
-      <Link to='' className='nav-link'>
+      </Scroll_Link>
+
+      <Scroll_Link
+        className='nav-link'
+        to='projects-component'
+        smooth={true}
+        offset={-160}
+        duration={800}
+      >
         Projects
-      </Link>
-      <Link to='' className='nav-link'>
+      </Scroll_Link>
+
+      <Scroll_Link
+        className='nav-link'
+        to='data-card'
+        smooth={true}
+        offset={-180}
+        duration={800}
+      >
         Resume
-      </Link>
-      <Link to='' className='nav-link'>
-        Contact
-      </Link>
+      </Scroll_Link>
     </nav>
   );
 }

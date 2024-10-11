@@ -6,7 +6,7 @@ import "./ProjectItem.css";
 
 export default function ProjectItem(props) {
   return (
-    <div className='project-wrapper'>
+    <div id='projects-component' className='project-wrapper'>
       <div className='left'>
         <Link to={props.externalLink} target='_blank'>
           <img src={props.projectImg} alt={props.alt} className='project-img' />

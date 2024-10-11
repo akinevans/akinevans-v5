@@ -4,7 +4,7 @@ import resume from "../../assets/Akin-Evans-Resume.pdf";
 
 export default function Hero() {
   return (
-    <div className='hero-wrapper'>
+    <div id='hero-component' className='hero-wrapper'>
       <h1 className='heading'>Akin Evans</h1>
       <h2 className='subheading'>
         <span className='highlight'>Front-End Developer</span> passionate about{" "}

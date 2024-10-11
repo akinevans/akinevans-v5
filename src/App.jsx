@@ -1,10 +1,12 @@
-import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import SectionTitle from "./components/SectionTitle/SectionTitle";
 import ProjectItem from "./components/Project/ProjectItem";
 import DataCard from "./components/DataCard/DataCard";
 import Footer from "./components/Footer/Footer";
+import "./App.css";
+
+// utility files
 import { projectData } from "./utils/projectData";
 import { experienceData } from "./utils/experience_education_Data";
 import { educationData } from "./utils/experience_education_Data";
@@ -17,6 +19,7 @@ import { educationData } from "./utils/experience_education_Data";
 // Host and publish
 
 function App() {
+  //* Display component functions
   const displayProjects = () => {
     return projectData.map((project) => (
       <ProjectItem
