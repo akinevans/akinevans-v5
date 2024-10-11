@@ -10,7 +10,7 @@
   height: 50px;
   /* background: var(--Background); */
   background: #07092bda;
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(20px);
   /* outline: 2px solid red; */
 
   .nav-link {

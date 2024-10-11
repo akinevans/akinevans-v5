@@ -182,6 +182,20 @@
       .project-title {
         font-size: 26px;
       }
+      .project-description {
+        width: 90%;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-wrapper {
+    .right {
+      .project-description {
+        width: 100%;
+      }
     }
   }
 }

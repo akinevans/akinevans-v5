@@ -11,12 +11,11 @@ import { projectData } from "./utils/projectData";
 import { experienceData } from "./utils/experience_education_Data";
 import { educationData } from "./utils/experience_education_Data";
 
-//TODO: Install and set up react-scroll for Nav
-// Accessability
-// Google Lighthouse
-// Google analytics
-//Add link to website in README
-// Host and publish
+/*TODO:
+ Google analytics
+ Host and publish
+Google Lighthouse
+Add link to website in README */
 
 function App() {
   //* Display component functions
