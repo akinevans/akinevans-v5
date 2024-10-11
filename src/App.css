@@ -1,6 +1,87 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  /* CSS Variables */
+
+  --Background: #07092b;
+  --Primary: #fff;
+  --Secondary: #a3a3a3;
+  /* create a highlight class with the properties for creating highlighted (blue green) text */
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Background);
+  color: var(--Primary);
+}
+
+.app-wrapper {
+  width: fit-content;
+  /* outline: 2px solid rgba(33, 221, 61, 0.819); */
+
+  .project-components-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .experience-education-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+    padding-left: 35px;
+    width: 100%;
+    max-width: 1200px;
+    height: fit-content;
+    /* outline: 2px solid rgb(97, 255, 6); */
+
+    .experience-wrapper,
+    .education-wrapper {
+      margin-bottom: 50px;
+      width: 50%;
+      height: fit-content;
+      /* outline: 2px solid rgb(242, 255, 0); */
+    }
+
+    .data-card-components-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 50px;
+      padding: 0;
+      width: 80%;
+      height: fit-content;
+      /* outline: 2px solid rgb(0, 255, 229); */
+    }
+  }
+}
+
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+  .app-wrapper {
+    .experience-education-wrapper {
+      flex-direction: column;
+      /* outline: 2px solid rgb(97, 255, 6); */
+
+      .experience-wrapper,
+      .education-wrapper {
+        width: 100%;
+        height: fit-content;
+        /* outline: 2px solid rgb(242, 255, 0); */
+      }
+
+      .data-card-components-wrapper {
+        gap: 35px;
+        /* outline: 2px solid rgb(0, 255, 229); */
+      }
+    }
+  }
 }
