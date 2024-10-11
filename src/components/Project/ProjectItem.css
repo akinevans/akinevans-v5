@@ -169,6 +169,11 @@
 
 @media screen and (max-width: 875px) {
   .project-wrapper {
+    .left {
+      .project-img {
+        max-height: 340px;
+      }
+    }
     .right {
       .project-description {
         width: 85%;
@@ -179,6 +184,11 @@
 
 @media screen and (max-width: 600px) {
   .project-wrapper {
+    .left {
+      .project-img {
+        max-height: 340px;
+      }
+    }
     .right {
       .project-title {
         font-size: 26px;
@@ -193,6 +203,11 @@
 
 @media screen and (max-width: 500px) {
   .project-wrapper {
+    .left {
+      .project-img {
+        max-height: 233px;
+      }
+    }
     .right {
       .project-description {
         width: 100%;
