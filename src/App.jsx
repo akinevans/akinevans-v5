@@ -11,11 +11,13 @@ import { projectData } from "./utils/projectData";
 import { experienceData } from "./utils/experience_education_Data";
 import { educationData } from "./utils/experience_education_Data";
 
-/*TODO:
- Google analytics
- Host and publish
-Google Lighthouse
-Add link to website in README */
+//FIXME: height and  on project images broken on mobile (pet pal), try converting to SVG then removing its media queries
+//FIXME: width broken on mobile
+
+//TODO: Update app icon
+//TODO Google analytics
+//TODOGoogle Lighthouse
+//TODOAdd link to website in README
 
 function App() {
   //* Display component functions
