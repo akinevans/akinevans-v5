@@ -14,10 +14,8 @@ import { educationData } from "./utils/experience_education_Data";
 //FIXME: height and  on project images broken on mobile (pet pal), try converting to SVG then removing its media queries
 //FIXME: width broken on mobile
 
-//TODO: Update app icon
 //TODO Google analytics
-//TODOGoogle Lighthouse
-//TODOAdd link to website in README
+//TODO Google Lighthouse
 
 function App() {
   //* Display component functions
