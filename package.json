@@ -2,7 +2,7 @@
   "name": "akinevans.com-v5",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://akinevans.github.io/akinevans.com-v5/",
+  "homepage": "https://akinevans.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
