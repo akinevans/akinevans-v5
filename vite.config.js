@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/akinevans.com-v5/",
+  base: "/",
   // build: {
   //   outDir: "./dist",
   //   emptyOutDir: true,
