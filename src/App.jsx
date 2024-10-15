@@ -5,13 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //FIXME: width broken on mobile
 
 function App() {
-  return (
-    <BrowserRouter basename='/'>
-      <Routes>
-        <Route path='/' element={<Homepage />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <Homepage />;
 }
 
 export default App;
