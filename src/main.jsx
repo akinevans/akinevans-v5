@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <RouterProvider router={router} /> */}
 
-    <BrowserRouter basename='/akinevans.com-v5/'>
+    <BrowserRouter basename='/akinevans-v5/'>
       <Routes>
         <Route path='/' element={<App />} />
       </Routes>
