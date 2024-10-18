@@ -2,20 +2,21 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 8vh auto 15px auto;
+  margin: 8vh 0 15px 0;
   padding-left: 35px;
-  width: 100%;
-  max-width: 1200px;
+  width: fit-content;
+  max-width: 500px;
   height: fit-content;
   color: var(--Primary);
   font-size: 40px;
   font-weight: 600;
+  outline: 2px solid red;
 }
 
 /*  utility classes */
 
 .alt-margin {
-  margin: 3vh auto 15px auto;
+  margin: 3vh 0 15px 0;
 }
 
 .alt-padding {
@@ -31,12 +32,12 @@
   }
 
   .alt-margin {
-    margin: 1vh auto 15px auto;
+    margin: 1vh 0 15px 0;
   }
 }
 
 @media screen and (max-width: 500px) {
   .alt-margin {
-    margin: -1vh auto 15px auto;
+    margin: -1vh 0 15px 0;
   }
 }
