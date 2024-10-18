@@ -65,8 +65,10 @@ function Homepage() {
     <div className='app-wrapper'>
       <Nav />
       <Hero />
-      <SectionTitle title='Projects' />
-      <div className='project-components-wrapper'>{displayProjects()}</div>
+      <div className='project-components-wrapper'>
+        <SectionTitle title='Projects' />
+        {displayProjects()}
+      </div>
 
       <div className='experience-education-wrapper'>
         <div className='experience-wrapper'>
@@ -87,8 +89,6 @@ function Homepage() {
           </div>
         </div>
       </div>
-
-      <SectionTitle title='Contact' className='alt-margin' />
       <Footer />
     </div>
   );

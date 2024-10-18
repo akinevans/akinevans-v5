@@ -2,15 +2,15 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 8vh 0 15px 0;
-  padding-left: 35px;
+  margin: 8vh 0 15px 35px;
+  /* padding-left: 35px; */
   width: fit-content;
-  max-width: 500px;
+  /* max-width: 500px; */
   height: fit-content;
   color: var(--Primary);
   font-size: 40px;
   font-weight: 600;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /*  utility classes */

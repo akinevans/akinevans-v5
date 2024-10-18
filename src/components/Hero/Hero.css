@@ -7,8 +7,8 @@
 }
 
 .hero-wrapper {
-  margin: -30px 0;
-  width: 90vw;
+  margin: -30px auto;
+  width: 100vw;
   height: fit-content;
   /* outline: 2px solid white; */
 
