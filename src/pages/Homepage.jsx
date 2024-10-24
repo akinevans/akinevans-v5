@@ -53,6 +53,7 @@ function Homepage() {
     return educationData.map((card) => (
       <DataCard
         key={card.index}
+        className='data-alt-margin'
         startDate={card.start}
         endDate={card.end}
         title={card.title}
@@ -82,7 +83,10 @@ function Homepage() {
           </div>
         </div>
         <div className='education-wrapper'>
-          <SectionTitle title='Education' className='alt-margin alt-padding' />
+          <SectionTitle
+            title='Education'
+            className='alt-margin alt-left-margin alt-padding'
+          />
 
           <div className='data-card-components-wrapper'>
             {displayEducationCards()}

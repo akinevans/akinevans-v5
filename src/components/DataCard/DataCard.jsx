@@ -3,7 +3,7 @@ import "./DataCard.css";
 
 export default function DataCard(props) {
   return (
-    <div id='data-card' className='data-card-wrapper'>
+    <div id='data-card' className={`data-card-wrapper ${props.className}`}>
       <p className='date'>{`${props.startDate} ${props.endDate ? "-" : ""} ${
         props.endDate
       }`}</p>
@@ -14,6 +14,7 @@ export default function DataCard(props) {
 }
 
 DataCard.propTypes = {
+  className: PropTypes.string,
   startDate: PropTypes.string,
   endDate: PropTypes.string,
   title: PropTypes.string,
