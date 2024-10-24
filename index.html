@@ -5,9 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="./public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akin Evans</title>
-
-    <!-- TODO: Reinstall Google Analytics -->
   </head>
+
+  <!-- //* Google analytics tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-6R54MSG1DG"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-6R54MSG1DG");
+  </script>
 
   <body>
     <div id="root"></div>
