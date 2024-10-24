@@ -16,7 +16,7 @@
 /*  utility classes */
 
 .alt-margin {
-  margin: 3vh 0 15px 0;
+  margin: 3vh 0 15px 35px;
 }
 
 .alt-padding {
@@ -32,12 +32,12 @@
   }
 
   .alt-margin {
-    margin: 1vh 0 15px 0;
+    margin: 1vh 0 15px 35px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .alt-margin {
-    margin: -1vh 0 15px 0;
+    margin: -1vh 0 15px 35px;
   }
 }

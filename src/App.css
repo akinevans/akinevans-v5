@@ -40,8 +40,7 @@ html {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 0 auto 0 auto;
-    padding-left: 35px;
+    /* margin: 0 auto 0 auto; */
     width: 100%;
     max-width: 1200px;
     height: fit-content;
@@ -49,9 +48,9 @@ html {
 
     .experience-wrapper,
     .education-wrapper {
-      margin-bottom: 50px;
-      width: 45%;
-      /* max-width: 600px; */
+      margin-bottom: 35px;
+      width: 50%;
+      max-width: 550px;
       height: fit-content;
       /* outline: 2px solid rgb(242, 255, 0); */
     }
@@ -62,7 +61,7 @@ html {
       justify-content: flex-start;
       align-items: flex-start;
       flex-wrap: wrap;
-      gap: 50px;
+      gap: 15px;
       padding: 0;
       width: 80%;
       height: fit-content;
@@ -72,6 +71,25 @@ html {
 }
 
 /* Media queries */
+@media screen and (max-width: 800px) {
+  .app-wrapper {
+    .experience-education-wrapper {
+      .data-card-components-wrapper {
+        gap: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .app-wrapper {
+    .experience-education-wrapper {
+      .data-card-components-wrapper {
+        gap: 60px;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 500px) {
   .app-wrapper {
@@ -81,14 +99,24 @@ html {
 
       .experience-wrapper,
       .education-wrapper {
-        width: 100%;
+        width: 90%;
         height: fit-content;
         /* outline: 2px solid rgb(242, 255, 0); */
       }
 
       .data-card-components-wrapper {
-        gap: 35px;
+        gap: 20px;
         /* outline: 2px solid rgb(0, 255, 229); */
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app-wrapper {
+    .experience-education-wrapper {
+      .data-card-components-wrapper {
+        gap: 40px;
       }
     }
   }
