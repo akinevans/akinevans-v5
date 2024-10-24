@@ -20,22 +20,18 @@
   }
 
   .heading {
-    /* margin: -15px 0; */
     width: 100%;
     font-size: 15vw;
     font-weight: 700;
     letter-spacing: -8px;
     text-transform: uppercase;
-    /* line-height: auto; */
   }
 
   .subheading {
     margin: -20px 0 0 0;
-    /* max-width: 750px; */
     font-size: 3.5vw;
     font-weight: 600;
     line-height: 110%;
-
     /* outline: 2px solid red; */
   }
 
@@ -56,7 +52,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* Media queries */
+/** Media queries */
 
 @media screen and (max-width: 850px) {
   .hero-wrapper {
@@ -70,7 +66,6 @@
 @media screen and (max-width: 700px) {
   .hero-wrapper {
     .heading {
-      /* margin: -15px 0; */
       letter-spacing: -5px;
     }
   }
