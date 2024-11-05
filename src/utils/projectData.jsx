@@ -51,9 +51,10 @@ export const projectData = [
     //^ listItems 1 - 3 are the left side. 4 - 6 are right
 
     listItem1: "React.js",
-    listItem2: "Redux",
-    listItem3: "JavaScript",
-    listItem4: "MySQL",
+    listItem2: "MySQL",
+    listItem3: "Redux",
+
+    listItem4: "TypeScript",
     listItem5: "Firebase",
     listItem6: "SCSS",
     githubLink: "https://github.com/akinevans/pet-pal",
