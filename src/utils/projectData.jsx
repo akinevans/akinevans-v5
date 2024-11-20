@@ -3,6 +3,7 @@ import social_sync from "../assets/social-sync.svg";
 
 //? Moonjelly font for PetPal v1, Cloud Soft for v2, made using Canva
 import petpal_v1_white from "../assets/petpal_v1_white.jpg";
+import medcount from "../assets/med_count.jpg";
 
 export const projectData = [
   {
@@ -59,5 +60,24 @@ export const projectData = [
     listItem6: "SCSS",
     githubLink: "https://github.com/akinevans/pet-pal",
     externalLink: "https://github.com/akinevans/pet-pal",
+  },
+  {
+    projectImg: medcount,
+    alt: "Med Count website",
+    title: "Med Count",
+    description:
+      "A health management tool designed to empower users with a structured approach to monitor wellness. By tracking daily symptoms, their severity, and many other metrics, the app helps users identify patterns and potential triggers over time. Med Count generates detailed health reports, enabling more accurate discussions with healthcare providers and supporting timely adjustments to treatment plans. Med Count bridges the gap between daily self-care and professional medical consultations, making health tracking more intuitive and impactful.",
+
+    //^ listItems 1 - 3 are the left side. 4 - 6 are right
+
+    listItem1: "React.js",
+    listItem2: "MySQL",
+    listItem3: "Redux",
+
+    listItem4: "TypeScript",
+    listItem5: "Firebase",
+    listItem6: "SCSS",
+    githubLink: "https://github.com/akinevans/med-counter",
+    externalLink: "https://github.com/akinevans/med-counter",
   },
 ];
